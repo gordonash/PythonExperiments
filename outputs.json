@@ -1,0 +1,284 @@
+{
+    "data": [
+        {
+        "id": "61d6f34fef02449b4c7525f4",
+        "type": "data",
+        "ownerId": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Dev",
+        "description": "To be used for Development for Data - QVDs are to created here before we move them to their respective spaces\nThis is a development space for the data team to develop",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["consumer", "dataconsumer", "facilitator", "operator", "producer"
+                ],
+            "assignableRoles": ["consumer", "dataconsumer", "datapreview", "facilitator", "operator", "producer", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d6f34fef02449b4c7525f4"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d6f34fef02449b4c7525f4/assignments"
+                }
+            },
+        "createdAt": "2022-01-06T13: 49: 03.065Z",
+        "createdBy": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "updatedAt": "2022-02-14T10: 29: 11.115Z"
+        },
+        {
+        "id": "61d89ddda51896adfd859f14",
+        "type": "shared",
+        "ownerId": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "UAT",
+        "description": "This is a space to UAT apps",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["consumer", "dataconsumer", "facilitator", "producer"
+                ],
+            "assignableRoles": ["codeveloper", "consumer", "dataconsumer", "facilitator", "producer"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d89ddda51896adfd859f14"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d89ddda51896adfd859f14/assignments"
+                }
+            },
+        "createdAt": "2022-01-07T20: 09: 02.004Z",
+        "createdBy": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "updatedAt": "2022-01-07T20: 09: 02.004Z"
+        },
+        {
+        "id": "61d9522f82a2d1c13968ca73",
+        "type": "data",
+        "ownerId": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "MISC",
+        "description": "This is an area of data from external systems kept for a temporary basis. ",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["consumer", "dataconsumer", "facilitator", "operator", "producer"
+                ],
+            "assignableRoles": ["consumer", "dataconsumer", "datapreview", "facilitator", "operator", "producer", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d9522f82a2d1c13968ca73"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61d9522f82a2d1c13968ca73/assignments"
+                }
+            },
+        "createdAt": "2022-01-08T08: 58: 23.318Z",
+        "createdBy": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "updatedAt": "2022-01-08T08: 58: 23.318Z"
+        },
+        {
+        "id": "61e197026db1b17418527772",
+        "type": "shared",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Development",
+        "description": "This shared space is for developing apps ",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["consumer", "dataconsumer", "facilitator", "producer"
+                ],
+            "assignableRoles": ["codeveloper", "consumer", "dataconsumer", "facilitator", "producer"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61e197026db1b17418527772"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61e197026db1b17418527772/assignments"
+                }
+            },
+        "createdAt": "2022-01-14T15: 30: 10.463Z",
+        "createdBy": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "updatedAt": "2022-02-04T08: 37: 10.464Z"
+        },
+        {
+        "id": "61ead2d123a5ea0f949dfbd6",
+        "type": "managed",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Insights",
+        "description": "This is a space for KPI / Scorecards and Top Level Dashboards for all of M3",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "publish", "read", "update"
+                ],
+            "roles": ["basicconsumer", "consumer", "dataconsumer", "facilitator", "publisher"
+                ],
+            "assignableRoles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61ead2d123a5ea0f949dfbd6"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61ead2d123a5ea0f949dfbd6/assignments"
+                }
+            },
+        "createdAt": "2022-01-21T15: 35: 45.148Z",
+        "createdBy": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "updatedAt": "2023-05-23T09: 35: 00.225Z"
+        },
+        {
+        "id": "61f126c35cff555dd2dcce5d",
+        "type": "managed",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Community",
+        "description": "Published apps for the community team",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "publish", "read", "update"
+                ],
+            "roles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ],
+            "assignableRoles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f126c35cff555dd2dcce5d"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f126c35cff555dd2dcce5d/assignments"
+                }
+            },
+        "createdAt": "2022-01-26T10: 47: 31.217Z",
+        "createdBy": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "updatedAt": "2022-01-26T10: 47: 31.217Z"
+        },
+        {
+        "id": "61f12890cda434ced546e6ce",
+        "type": "managed",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Sales",
+        "description": "Published apps for the sales team",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": [],
+            "assignableRoles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f12890cda434ced546e6ce"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f12890cda434ced546e6ce/assignments"
+                }
+            },
+        "createdAt": "2022-01-26T10: 55: 12.56Z",
+        "createdBy": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "updatedAt": "2022-01-26T10: 55: 12.56Z"
+        },
+        {
+        "id": "61f129235cff555dd2dccee3",
+        "type": "managed",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Product",
+        "description": "Published apps for the Product team",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "publish", "read", "update"
+                ],
+            "roles": ["consumer", "contributor", "dataconsumer", "facilitator", "publisher"
+                ],
+            "assignableRoles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f129235cff555dd2dccee3"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f129235cff555dd2dccee3/assignments"
+                }
+            },
+        "createdAt": "2022-01-26T10: 57: 39.536Z",
+        "createdBy": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "updatedAt": "2022-01-26T10: 57: 39.536Z"
+        },
+        {
+        "id": "61f14b0a53af7241b553b63b",
+        "type": "managed",
+        "ownerId": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "User Acceptance Testing",
+        "description": "This space is for testing each app before publishing to final space",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["basicconsumer", "facilitator"
+                ],
+            "assignableRoles": ["basicconsumer", "consumer", "contributor", "dataconsumer", "facilitator", "operator", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f14b0a53af7241b553b63b"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61f14b0a53af7241b553b63b/assignments"
+                }
+            },
+        "createdAt": "2022-01-26T13: 22: 18.097Z",
+        "createdBy": "aN1w1rWlfeU50PtDzpQO5LswLtwzt-r9",
+        "updatedAt": "2022-02-04T08: 40: 08.77Z"
+        },
+        {
+        "id": "61fc31503dd6f2bc3db8c8c6",
+        "type": "data",
+        "ownerId": "4ja_uOR_T7_9zZKK2p8TmuFJu0dyvArR",
+        "tenantId": "hiMwYldFEwwFg4LbrucjUpuBUNBlnA2r",
+        "name": "Bulletins",
+        "description": "This is a space for Bulletin Transmissions and Responses ",
+        "meta": {
+            "actions": ["change_owner", "create", "delete", "read", "update"
+                ],
+            "roles": ["consumer", "dataconsumer", "facilitator", "operator", "producer"
+                ],
+            "assignableRoles": ["consumer", "dataconsumer", "datapreview", "facilitator", "operator", "producer", "publisher"
+                ]
+            },
+        "links": {
+            "self": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61fc31503dd6f2bc3db8c8c6"
+                },
+            "assignments": {
+                "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces/61fc31503dd6f2bc3db8c8c6/assignments"
+                }
+            },
+        "createdAt": "2022-02-03T19: 47: 28.971Z",
+        "createdBy": "JmJu8X1c2WumOk4_vShmFzBVM5l3JUp4",
+        "updatedAt": "2023-06-16T08: 15: 59.286Z"
+        }
+    ],
+    "meta": {
+        "count": 71
+    },
+    "links": {
+        "self": {
+            "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces"
+        },
+        "next": {
+            "href": "https: //m3data.eu.qlikcloud.com/api/v1/spaces?next=FgAAAAdfaWQAYfwxUD3W8rw9uMjGAA"
+        }
+    }
+}
