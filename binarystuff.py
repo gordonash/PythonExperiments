@@ -1,4 +1,5 @@
 from mpmath import mp
+import itertools
 s='z'
 n=ord(s)
 m=format(n,'b')
@@ -15,6 +16,27 @@ for i in range(0,10):
 print(a)
     
 
+def count1s(testString)->int:
+    '''10101->3'''
+    a =len(testString)-len(testString.replace('1',''))
+    return a
+print(count1s('qw1er1t1'))
+
+def convertnumbertobindigits(integerNumber,length=16)->str:
+    '''12123 -> 0010111101011011'''
+    print(str(integerNumber),format(integerNumber,'b').zfill(length))
+    return format(integerNumber,'b').zfill(length)
+    
+print(convertnumbertobindigits(12123))
+def combinationsOf1s(testString)->int:
+    per=set(itertools.permutations(testString,3))
+    for val in per:
+        print(*val)
+    print(len(per))
+print(combinationsOf1s('12'))
+def intStringTo2Bit(testString):
+    return testString
+print(intStringTo2Bit('123'))
 
 
 
